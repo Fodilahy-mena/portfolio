@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+body > header, main {
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+}

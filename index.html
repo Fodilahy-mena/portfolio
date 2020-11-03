@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <input type="checkbox" id="menu_checkbox">
+    <header>
+        <h1>Jerome</h1>
+        <label for="menu_checkbox" class="icon_menu">
+            <!-- <span class="a11y">Open the menu</span> -->
+        </label>
+    </header>
+    <nav class="navigation">
+        <label for="menu_checkbox" class="icon_menu">
+            <!-- <span class="a11y">Site menu</span> -->
+        </label>
+        <ul class="navigation__list">
+            <li class="navigation__item active">
+                <a class="navigation__link navigation__link--home" href="/">Home</a>
+            </li>
+
+            <li class="navigation__item">
+                <a class="navigation__link navigation__link--collection" href="/discovery">Collection</a>
+            </li>
+
+            <li class="navigation__item">
+                <a class="navigation__link navigation__link--about" href="/photos">About</a>
+            </li>
+
+            <li class="navigation__item">
+                <a class="navigation__link navigation__link--contact" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

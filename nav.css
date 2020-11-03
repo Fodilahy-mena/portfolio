@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,bold&display=swap');
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 8rem;
+}
+
+.navigation__item {
+    opacity: .8;
+}
+.active {
+    opacity: 1;
+}
+.navigation__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.navigation__item:last-child a {
+    padding-inline-end: 0;
+}
+.navigation__link {
+    padding: 1.25rem;
+    background-image: none;
+    line-height: 1.25rem;
+    background-position: 1rem 50%;
+    text-decoration: none;
+    display: block;
+}
+
+.navigation {
+    padding: 1rem;
+    position: absolute;
+    z-index: 3;
+    top: -7px;
+    right: 0;
+    bottom: 0;
+    width: 375px;
+    height: auto;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    background: teal;
+    box-shadow: 0 0 50px rgba(0,0,0,.5);
+  }
+    
+body > [type="checkbox"]:checked ~ .navigation {
+transform: translateY(0%);
+}
+  
+    
+body > [type="checkbox"]:checked ~ header label {
+position: absolute;
+z-index: 2;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0, 0, 0, 0);
+}
+  
+.navigation label {
+width: 250px;
+display: block;
+height: 30px;
+}
+body > [type="checkbox"] {
+    display: none;
+}
+
+.navigation > label, body > header > label {
+width: 28px;
+height: 28px;
+background-size: 28px;
+background-repeat: no-repeat;
+position: relative;
+}
+body > header > label {
+    background-image: url(./images/menu.svg);
+}
+
+.navigation > label {
+    background-image: url(./images/cross.svg);
+    margin-left: auto;
+}
+
+@media (min-width: 977px) {
+body > header label {
+    display: none;
+    }
+    .navigation {
+    padding: 0;
+    background-color: transparent;
+    top: 16px;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    max-width: 90%;
+    min-width: 90%;
+    height: auto;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    margin: auto;
+    }
+    .navigation label {
+    display: none;
+    }
+    .navigation__list {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    max-width: unset;
+    min-width: unset;
+    margin: unset;
+    position: unset;
+    top: unset;
+    }
+
+}

@@ -9,6 +9,8 @@ body > header {
     padding: 1.25rem;
     color: white;
     background-color: teal;
+    z-index: 1;
+    position: relative;
 
 }
 body > header > h1 {
@@ -18,7 +20,34 @@ body > header > h1 {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    border: 1px solid white;
+    border: 2px solid white;
     box-sizing: border-box;
     padding: 8px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+@media (min-width: 977px) {
+    body > header > h1 {
+        max-width: fit-content;
+        min-width: fit-content;
+        margin-left: 3.5%;
+    }
+    body > header {
+        background-color: unset;
+    }
+}
+
+.masthead {
+    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
+    rgba(25, 158, 158, 0.3) 0%, rgb(0,128,128, 0.2) 73.22%, rgb(0,128,128, 0.3)), 
+     url(./images/jerome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 40%;
+    padding-block-start: 228px;
+    padding-block-end: 200px;
+    top: -115px;
+    position: relative;
+    border-radius: 0 0 85% 85% / 30%;
 }

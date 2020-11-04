@@ -8,12 +8,12 @@
     top: 8rem;
 }
 
-.navigation__item {
+/* .navigation__item {
     opacity: .8;
 }
 .active {
     opacity: 1;
-}
+} */
 .navigation__link {
     font-family: Montserrat;
     font-style: normal;
@@ -38,7 +38,7 @@
     padding: 1rem;
     position: absolute;
     z-index: 3;
-    top: -7px;
+    top: 0px;
     right: 0;
     bottom: 0;
     width: 375px;
@@ -46,7 +46,7 @@
     transform: translateY(-100%);
     transition: transform 0.3s;
     background: teal;
-    box-shadow: 0 0 50px rgba(0,0,0,.5);
+    box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.75);
   }
     
 body > [type="checkbox"]:checked ~ .navigation {
@@ -98,7 +98,7 @@ body > header label {
     .navigation {
     padding: 0;
     background-color: transparent;
-    top: 16px;
+    top: 7px;
     left: 0;
     right: 0;
     bottom: auto;

@@ -5,7 +5,7 @@
     padding: 0;
     text-align: center;
     position: relative;
-    top: 8rem;
+    /* top: 8rem; */
 }
 
 /* .navigation__item {
@@ -25,6 +25,9 @@
 .navigation__item:last-child a {
     padding-inline-end: 0;
 }
+.navigation__item {
+    border-bottom: 1px solid white;
+}
 .navigation__link {
     padding: 1.25rem;
     background-image: none;
@@ -41,17 +44,23 @@
     top: -10px;
     right: 0;
     bottom: 0;
-    width: 375px;
     height: auto;
-    transform: translateY(-100%);
-    transition: transform 0.3s;
+    display: none;
+    max-width: 95%;
+    min-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+    transition: transform 1s;
     background: teal;
+    border-radius: 0 0 85% 85% / 10%;
     box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.75);
   }
     
 body > [type="checkbox"]:checked ~ .navigation {
     transform: translateY(0%);
     top: 0;
+    display: block;
 }
   
     
@@ -91,8 +100,14 @@ body > header > label {
     background-image: url(./images/cross.svg);
     margin-left: auto;
 }
+.navigation > label {
+	transition: rotate 1s;
+}
+
 .navigation > label:hover {
     background-color: red;
+    border-radius: 50%;
+    rotate: 360deg;
 }
 
 @media (min-width: 977px) {
@@ -100,6 +115,7 @@ body > header label {
     display: none;
     }
     .navigation {
+    display: block;
     padding: 0;
     background-color: transparent;
     top: 7px;
@@ -127,6 +143,9 @@ body > header label {
     margin: unset;
     position: unset;
     top: unset;
+    }
+    .navigation__item {
+        border: unset;
     }
 
 }

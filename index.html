@@ -10,12 +10,42 @@
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <input type="checkbox" id="menu_checkbox">
+    
     <header>
+        <div>
+            
+        </div>
+        <input class="open_menu" type="checkbox" id="menu_checkbox">
         <h1>Je</h1>
         <label for="menu_checkbox" class="icon_menu">
             <!-- <span class="a11y">Open the menu</span> -->
         </label>
+        <nav class="navigation">
+            <label for="menu_checkbox" class="icon_menu skip">
+                <!-- <span class="a11y">Site menu</span> -->
+            </label>
+            <ul class="navigation__list">
+                <li class="navigation__item active">
+                    <a class="navigation__link navigation__link--home" href="/">Home</a>
+                </li>
+    
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--about" href="/photos">About</a>
+                </li>
+    
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--design" href="/design">Design</a>
+                </li>
+    
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--blog" href="/blog">Blog</a>
+                </li>
+    
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--contact" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <header class="masthead">
@@ -25,31 +55,7 @@
             </div>
         </header>
     </main>
-    <nav class="navigation">
-        <label for="menu_checkbox" class="icon_menu skip">
-            <!-- <span class="a11y">Site menu</span> -->
-        </label>
-        <ul class="navigation__list">
-            <li class="navigation__item active">
-                <a class="navigation__link navigation__link--home" href="/">Home</a>
-            </li>
-
-            <li class="navigation__item">
-                <a class="navigation__link navigation__link--about" href="/photos">About</a>
-            </li>
-
-            <li class="navigation__item">
-                <a class="navigation__link navigation__link--design" href="/design">Design</a>
-            </li>
-
-            <li class="navigation__item">
-                <a class="navigation__link navigation__link--blog" href="/blog">Blog</a>
-            </li>
-
-            <li class="navigation__item">
-                <a class="navigation__link navigation__link--contact" href="/contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
+    
+    
 </body>
 </html>

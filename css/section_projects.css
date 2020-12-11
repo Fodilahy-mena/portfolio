@@ -1,0 +1,119 @@
+
+.section__projects {
+    padding: 16px;
+}
+.projects__list {
+    padding: 0;
+    list-style: none;
+}
+.list__inner {
+    padding: 0;
+    list-style: none;
+}
+
+.list__item--inner figure {
+    margin: 0;
+}
+
+.link--image {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 12px;
+}
+
+.section__projects h2 {
+    font-family: Montserrat Bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.section__projects h3 {
+    font-family: Montserrat Bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #4F4F4F;
+    
+}
+
+.section__projects h4 {
+    font-family: Montserrat Bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4F4F4F;
+    
+}
+
+.section__projects p {
+    font-family: Montserrat Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* Gray 3 */
+    color: #828282;
+}
+
+.button__link {
+    word-break: normal;
+    border: 1px solid #5C94E1;
+    /* border: 1px solid rgb(57, 185, 185); */
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    color: #5C94E1;
+    /* color: rgb(84, 230, 230); */
+    cursor: pointer;
+    margin-right: 11px;
+}
+
+.button__link:hover {
+    background: #5C94E1;
+    /* background: rgb(69, 223, 223); */
+    color: #FFFFFF;
+
+}
+/* . {
+    margin-right: 11px;
+} */
+
+@media (min-width: 977px) {
+    .section__projects {
+        /* display: flex;
+        gap: 2rem; */
+        max-width: 90%;
+        min-width: 90%;
+        margin: auto;
+    }
+    .section__projects h4 {
+        margin-top: 0;
+    }
+    .list__item--inner {
+        display: flex;
+        gap: 2rem;
+        /* align-items: center; */
+        padding: 0;
+    }
+    .link--image {
+        max-width: 272px;
+        min-width: 272px;
+    }
+
+    .button__link {
+        margin-bottom: 0;
+    }
+}

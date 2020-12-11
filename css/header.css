@@ -42,9 +42,7 @@ body > header h1 {
 }
 
 .masthead {
-    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%,
-    rgba(25, 158, 158, 0.3) 0%, rgb(0,128,128, 0.2) 73.22%, rgb(0,128,128, 0.3)), 
-     url(./images/jerome.jpg);
+    background-color: rgba(184, 187, 187, 0.582) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 40%;

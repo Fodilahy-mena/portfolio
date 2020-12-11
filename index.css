@@ -1,0 +1,9 @@
+@import './css/default.css';
+@import './css/header.css';
+@import './css/nav.css';
+@import './css/section_about.css';
+@import './css/section_projects.css';
+body {
+    margin: 0;
+    padding: 0;
+}

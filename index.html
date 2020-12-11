@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="default.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     
     <header>
-        <div>
-            
-        </div>
+        
         <input class="open_menu" type="checkbox" id="menu_checkbox">
         <h1>Je</h1>
         <label for="menu_checkbox" class="icon_menu">
             <!-- <span class="a11y">Open the menu</span> -->
         </label>
         <nav class="navigation">
-            <label for="menu_checkbox" class="icon_menu skip">
+            <!-- <label for="menu_checkbox" class="icon_menu skip"> -->
                 <!-- <span class="a11y">Site menu</span> -->
-            </label>
+            <!-- </label> -->
             <ul class="navigation__list">
                 <li class="navigation__item active">
                     <a class="navigation__link navigation__link--home" href="/">Home</a>
@@ -54,6 +50,100 @@
                 <h3>A frontend developer and an English speaker</h3>
             </div>
         </header>
+        <section class="section__details">
+            <figure>
+                <img class="details__img" src="./images/jerome1.jpg" alt="jerome emilien focusing on coding"/>
+            </figure>
+            <div>
+                <article>
+                    <h2>About me</h2>
+                    <p>I'm 21 years old and I come from a small town called Andovolalina which is located in the west of Mahanoro, Madagascar.</p>
+                    <p>I have spent two incredible years learning at <a href="https://onja.org/">onja</a> - a non-profit organisation (a social enterprise) in Madagascar. A year of being able to speak English and interact with people with that skill, and a year of coding.</p>
+                    <p>Being an old hand at HTML, CSS and JavaScript including React was the main goal during the last one year.</p>
+                    <p>Now, applying those skills in real world is my gratefulness and delight</p>
+                </article>
+                <div class="details__wrapper">
+                    <ul class="links__social">
+                        <li>
+                            <a class="icon icon--email" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=jerome.emi@onja.org">
+                                <i class="ri-mail-fill"></i>
+                                <span>jerome.emi@onja.org</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon icon--phone" href="">
+                                <i class="ri-phone-fill"></i>
+                                <span>(+ 261) 34 14 988 04</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section__projects">
+            <header>
+                <h2>Projects</h2>
+                <p>I have done projects with HTML, CSS, Vanilla JavaScript and React and deployed some of them.</p>
+            </header>
+            <nav>
+                <ol class="projects__list">
+                    <li class="list__item">
+                        <h3>With HTML and CSS</h3>
+                        <ul class="list__inner">
+                            <li class="list__item--inner">
+                                <figure>
+                                    <img class="link--image" src="./images/frontend_finals.png" alt="birtday application, shorted by whose birthday is soonest">
+                                </figure>
+                                <article>
+                                    <h4>Front-end finals</h4>
+                                    <p>This webpage was our final project in front-end cource which is made of HTML, CSS including SASS amd some basic JavaScript with scrowlling images.</p>
+                                    <p>In this project, we did the best we could to make the HTML is accessible, well structured and valid, and with CSS styling, we followed the given design and make it responsive.</p>
+
+                                    <a href="https://j-emilien-frontend-finils.netlify.app/">
+                                        <button class="button__link link--demo">Demo</button>
+                                    </a>
+                                    <a href="https://github.com/Fodilahy-mena/front-end-finals">
+                                        <button class="button__link link--code">Code</button>
+                                    </a>
+                                </article>
+                            </li>
+                            <p></p>
+                        </ul>                    </li>
+                    <li class="list__item">
+                        <h3>With Vanilla JavaScript</h3>
+                        <ul class="list__inner">
+                            <li class="list__item--inner">
+                                <figure>
+                                    <img class="link--image" src="./images/birthday_app.png" alt="birtday application, shorted by whose birthday is soonest">
+                                </figure>
+                                <article>
+                                    <h4>Birthday app</h4>
+                                    <p>In this project, I worked with HTML, CSS and JavaScript to create a birthday app. The main purpose of this project was the functionality.</p>
+                                    <p>We can sort the people list according to whose birthday is the soonest, also we can filter them.</p>
+
+                                    <a href="https://j-emilien-birthdayapp.netlify.app/">
+                                        <button class="button__link link--demo">Demo</button>
+                                    </a>
+                                    <a href="https://github.com/Fodilahy-mena/birthday-app">
+                                        <button class="button__link link--code">Code</button>
+                                    </a>
+                                </article>
+                            </li>
+                            <p></p>
+                        </ul>
+                    </li>
+                    <li class="list__item">
+                        <h3>With React<h3>
+                        <ul class="list__inner">
+                            <li class="list__item--inner">
+
+                            </li>
+                            <p></p>
+                        </ul>
+                    <li>
+                </ol>
+            </nav>
+        </section>
     </main>
     
     

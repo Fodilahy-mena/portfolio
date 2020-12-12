@@ -18,7 +18,11 @@
 .link--image {
     max-width: 100%;
     min-width: 100%;
-    border-radius: 12px;
+    border-radius: 6px;
+    /* box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%); */
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,.8);
 }
 
 .section__projects h2 {

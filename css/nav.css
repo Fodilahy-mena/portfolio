@@ -60,7 +60,7 @@
     
 .open_menu:checked ~ .navigation {
     transform: translateY(22%);
-    top: 0;
+    top: 20px;
     display: block;
 }
   

@@ -54,7 +54,7 @@
     height: fit-content;
     transition: transform 1s;
     background-color: #f8f8f8;
-    border-radius: 0 0 85% 85% / 10%;
+    /* border-radius: 0 0 85% 85% / 10%; */
     box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.75);
   }
     

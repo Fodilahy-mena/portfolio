@@ -50,5 +50,5 @@ body > header h1 {
     padding-block-end: 150px;
     top: -115px;
     position: relative;
-    border-radius: 0 0 85% 85% / 10%;
+    /* border-radius: 0 0 85% 85% / 10%; */
 }

@@ -3,6 +3,7 @@
 @import './css/nav.css';
 @import './css/section_about.css';
 @import './css/section_projects.css';
+@import './css/footer.css';
 body {
     margin: 0;
     padding: 0;

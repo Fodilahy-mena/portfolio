@@ -14,6 +14,15 @@
 .list__item--inner figure {
     margin: 0;
 }
+.list__item--inner ul {
+    list-style: none;
+    padding: 0;
+}
+@media (min-width: 375px) {
+    .list__item--inner ul {
+        display: flex;
+    }
+}
 
 .link--image {
     max-width: 100%;
@@ -83,6 +92,7 @@
     /* color: rgb(84, 230, 230); */
     cursor: pointer;
     margin-right: 11px;
+    outline: none;
 }
 
 .button__link:hover {

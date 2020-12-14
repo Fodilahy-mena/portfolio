@@ -19,6 +19,11 @@
     color: #4F4F4F;
 
 }
+.onja {
+    text-decoration: none;
+    color: #00b2d8;
+    font-style: italic;
+}
 .details__job {
     font-family: Montserrat Medium;
     font-style: normal;
